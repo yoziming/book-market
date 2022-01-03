@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>Kaptcha</servlet-name>
+        <servlet-class>com.google.code.kaptcha.servlet.KaptchaServlet</servlet-class>
+        <!-- 定義驗證碼樣式 -->
+        <!-- 是否有邊框 -->
+        <init-param>
+            <param-name>kaptcha.border</param-name>
+            <!-- 沒有邊框 no -->
+            <param-value>yes</param-value>
+        </init-param>
+        <!-- 字體顏色 -->
+        <init-param>
+            <param-name>kaptcha.textproducer.font.color</param-name>
+            <param-value>red</param-value>
+        </init-param>
+        <!-- 圖片寬度 -->
+        <init-param>
+            <param-name>kaptcha.image.width</param-name>
+            <param-value>80</param-value>
+        </init-param>
+        <!-- 使用哪些字符生成驗證碼 -->
+        <init-param>
+            <param-name>kaptcha.textproducer.char.string</param-name>
+            <param-value>234580</param-value>
+        </init-param>
+        <!-- 圖片高度 -->
+        <init-param>
+            <param-name>kaptcha.image.height</param-name>
+            <param-value>40</param-value>
+        </init-param>
+        <!-- 字體大小 -->
+        <init-param>
+            <param-name>kaptcha.textproducer.font.size</param-name>
+            <param-value>35</param-value>
+        </init-param>
+        <init-param>
+            <description>文字間隔</description>
+            <param-name>kaptcha.textproducer.char.space</param-name>
+            <param-value>3</param-value>
+        </init-param>
+        <!--去掉干擾線com.google.code.kaptcha.impl.NoNoise-->
+        <!--加干擾線com.google.code.kaptcha.impl.DefaultNoise-->
+        <init-param>
+            <description>干擾實現類</description>
+            <param-name>kaptcha.noise.impl</param-name>
+            <param-value>
+                com.google.code.kaptcha.impl.NoNoise
+            </param-value>
+        </init-param>
+        <!-- 幹擾線的顏色 -->
+        <init-param>
+            <param-name>kaptcha.noise.color</param-name>
+            <param-value>green</param-value>
+        </init-param>
+        <init-param>
+            <description>
+                圖片樣式：
+                水紋com.google.code.kaptcha.impl.WaterRipple
+                魚眼com.google.code.kaptcha.impl.FishEyeGimpy
+                陰影com.google.code.kaptcha.impl.ShadowGimpy
+            </description>
+            <param-name>kaptcha.obscurificator.impl</param-name>
+            <param-value>
+                com.google.code.kaptcha.impl.ShadowGimpy
+            </param-value>
+        </init-param>
+        <!-- 驗證碼字符個數 -->
+        <init-param>
+            <param-name>kaptcha.textproducer.char.length</param-name>
+            <param-value>4</param-value>
+        </init-param>
+        <!-- 字體 -->
+        <init-param>
+            <param-name>kaptcha.textproducer.font.names</param-name>
+            <param-value>Aria</param-value>
+        </init-param>
+        <init-param>
+            <description>
+                session中存放驗證碼的key鍵
+            </description>
+            <param-name>kaptcha.session.key</param-name>
+            <param-value>KAPTCHA_SESSION_KEY</param-value>
+        </init-param>
+        <init-param>
+            <description>
+                The date the kaptcha is generated is put into the
+                HttpSession. This is the key value for that item in the
+                session.
+            </description>
+            <param-name>kaptcha.session.date</param-name>
+            <param-value>KAPTCHA_SESSION_DATE</param-value>
+        </init-param>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Kaptcha</servlet-name>
+        <url-pattern>/captcha.jpg</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>com.yoziming.book.web.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/TestServlet</url-pattern>
+    </servlet-mapping>
+    <error-page>
+        <location>/pages/error/error.html</location>
+    </error-page>
+
+</web-app>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Insert title here</title>
+    <script type="text/javascript">
+        function ajaxRequest() {
+            // 1、首先創建XMLHttpRequest
+            var xhr = new XMLHttpRequest();
+            // 2、調用open方法設置請求參數，第三個true表示異步
+            xhr.open("GET", "http://localhost:8080/AjaxServlet", true)
+            // 4、在send方法前綁定onreadystatechange事件，處理請求完成后的操作
+            // 就是先講好收到回應(資料)要幹嘛
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    // 4表示伺服器已完成回應
+                    // 後端用jsonString傳來一個物件
+                    var jsonObj = JSON.parse(xhr.responseText);
+                    // 把物件的內容展示出去
+                    document.getElementById("div01").innerHTML = "收到的東西:" + jsonObj.name;
+                }
+            }
+            // 3、調用send方法發送請求，一收到回應就會執行剛剛綁定的動作
+            xhr.send();
+        }
+
+        $("#getJSONBtn").click(function () {
+            $.getJSON("http://localhost:8080/AjaxServlet", "action=jQueryGetJSON", function (data) {
+                $("#msg").html(data.id)
+            })
+        })
+    </script>
+</head>
+<body>
+<button onclick="ajaxRequest()">ajax request</button>
+<div id="div01">
+</div>
+</body>
+</html>
