@@ -40,21 +40,21 @@
 ## 演示(Demo)
 
 - 以下透過gif簡單展示相關功能，若顯示有問題，可以移至個人blog觀看
-- 
+- https://yoziming.github.io/post/220209-javaweb-book-market/
 
 ### 登入與註冊
 
 - 以Ajax請求，即時驗證填入的資訊，並做出提醒(如用戶名重複等等)
 - 驗證碼防止機器人與重複註冊
 
-![login](login.gif)
+![https://yoziming.github.io/post/220209-javaweb-book-market/login.gif](https://yoziming.github.io/post/220209-javaweb-book-market/login.gif)
 
 ### 價格篩選
 
 - 有防呆功能，即使亂輸入也會在稍後自動校正
 - 可直接跳轉的分頁
 
-![price](price.gif)
+![price](https://yoziming.github.io/post/220209-javaweb-book-market/price.gif)
 
 ### 購物車
 
@@ -62,37 +62,37 @@
 - 可修改數量，並且也有防呆校正
 - 刪除項目、清空購物車
 
-![cart](cart.gif)
+![cart](https://yoziming.github.io/post/220209-javaweb-book-market/cart.gif)
 
 ### 訂單
 
 - 下單成功後可察看訂單詳情
 - 並且會將購物車正確清空
 
-![guest](guest.gif)
+![guest](https://yoziming.github.io/post/220209-javaweb-book-market/guest.gif)
 
 ### 用戶資訊保護
 
 - 必須為正確的登入狀態才可以查看訂單相關模組
 
-![filter](filter.gif)
+![filter](https://yoziming.github.io/post/220209-javaweb-book-market/filter.gif)
 
 ### 管理後台
 
 - 能驗證是否為具有管理員權限
 - 增刪改查商品訊息、訂單訊息
 
-![manager](manager.gif)
+![manager](https://yoziming.github.io/post/220209-javaweb-book-market/manager.gif)
 
 ### 用戶收貨
 
 - 當商城出貨後，用戶可以執行確認收貨的動作
 
-![receive](receive.gif)
+![receive](https://yoziming.github.io/post/220209-javaweb-book-market/receive.gif)
 
 ### 友善的錯誤提示頁面
 
-![error](error.gif)
+![error](https://yoziming.github.io/post/220209-javaweb-book-market/error.gif)
 
 ## 安裝(Install)
 
