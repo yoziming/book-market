@@ -1,0 +1,79 @@
+create database bookstore;
+
+use bookstore;
+create table t_user(
+    # ID 為自增；用戶名唯一且非空；密碼非空；電子信箱沒有要求
+                     `user_id` int primary key auto_increment,
+                     `username` varchar(20) not null  unique,
+                     `password` varchar(32) not null ,
+                     `email` varchar(100)
+);
+insert into t_user(`username`,`password`,`email`) values('admin','123456','admin@example.com');
+
+
+use bookstore;
+# 創建圖書模組
+create table t_book(
+                       `id` int primary key auto_increment,
+                       `name` varchar(100),
+                       `price` decimal(11,2),
+                       `author` varchar(100),
+                       `sales` int,
+                       `stock` int,
+                       `img_path` varchar(200)
+);
+
+## 插入初始圖書測試資料
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '高等數學' , '鳴人' , 99.50 , 48 , 34 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '張宇十八講' , '張宇' , 9.90 , 102 , 78 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '論文寫作指導' , '鄧華' , 49.00 , 64 , 36 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '作業系統原理' , '譚浩強' , 133.05 , 122 , 188 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '三體' , '劉燁' , 89.15 , 20 , 10 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '論文寫作指導' , '劉慈欣' , 49.00 , 64 , 36 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '飄' , '雷豐陽' , 133.05 , 122 , 188 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '自動控制原理' , '王萬良' , 89.15 , 20 , 10 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '第七日' , '余華' , 49.00 , 64 , 36 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '人生' , '路遙' , 133.05 , 122 , 188 , 'static/img/default.jpg');
+
+insert into t_book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_path`)
+values(null , '活著' , '余華' , 89.15 , 20 , 10 , 'static/img/default.jpg');
+
+
+# 創建訂單模組
+create table t_order(
+                        `order_id` varchar(50) primary key,
+                        `create_time` datetime,
+                        `price` decimal(11,2),
+                        `status` int,
+                        `user_id` int,
+                        foreign key(`user_id`) references t_user(`user_id`)
+);
+
+create table t_order_item(
+                             `id` int primary key auto_increment,
+                             `name` varchar(100),
+                             `count` int,
+                             `price` decimal(11,2),
+                             `total_price` decimal(11,2),
+                             `order_id` varchar(50),
+                             foreign key(`order_id`) references t_order(`order_id`)
+);
