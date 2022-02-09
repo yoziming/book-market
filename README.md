@@ -47,7 +47,7 @@
 - 以Ajax請求，即時驗證填入的資訊，並做出提醒(如用戶名重複等等)
 - 驗證碼防止機器人與重複註冊
 
-![https://yoziming.github.io/post/220209-javaweb-book-market/login.gif](https://yoziming.github.io/post/220209-javaweb-book-market/login.gif)
+![login.gif](https://yoziming.github.io/post/220209-javaweb-book-market/login.gif)
 
 ### 價格篩選
 
@@ -236,6 +236,6 @@ SET FOREIGN_KEY_CHECKS = 1;
 
 - 使用Tomcat Server運行，並確認Artifacts無誤即可啟動
 
-![image-20220210000251435](image-20220210000251435.png)
+![image-20220210000251435](https://yoziming.github.io/post/220209-javaweb-book-market/image-20220210000251435.png)
 
 - 需要確認 `jdbc.properties`中MySQL的帳號與密碼
