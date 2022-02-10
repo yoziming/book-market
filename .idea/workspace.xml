@@ -9,11 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7991d39f-314a-411e-a1d6-9b9ee0e83d4e" name="Changes" comment="" />
+    <list default="true" id="7991d39f-314a-411e-a1d6-9b9ee0e83d4e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -23,6 +30,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="24uDmemnw2YDZTdg5Y4F90JoqOT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="compactDirectories" value="true" />
@@ -138,7 +146,7 @@
       <updated>1644471738633</updated>
       <workItem from="1644471739801" duration="226000" />
       <workItem from="1644473348260" duration="597000" />
-      <workItem from="1644473964907" duration="301000" />
+      <workItem from="1644473964907" duration="1348000" />
     </task>
     <servers />
   </component>
