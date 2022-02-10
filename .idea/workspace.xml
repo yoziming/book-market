@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7991d39f-314a-411e-a1d6-9b9ee0e83d4e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/yoziming/filter/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yoziming/filter/CorsFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +156,7 @@
       <workItem from="1644471739801" duration="226000" />
       <workItem from="1644473348260" duration="597000" />
       <workItem from="1644473964907" duration="8370000" />
-      <workItem from="1644486600717" duration="2569000" />
+      <workItem from="1644486600717" duration="3379000" />
     </task>
     <servers />
   </component>
