@@ -15,7 +15,8 @@ public class TransactionFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         try {
-            filterChain.doFilter(servletRequest,servletResponse);
+          
+            filterChain.doFilter(servletRequest, servletResponse);
             JdbcUtils.commitAndClose();// 提交事務
         } catch (Exception e) {
             JdbcUtils.rollbackAndClose();//回滾事務
