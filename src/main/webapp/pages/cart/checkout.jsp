@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta charset="UTF-8">
     <title>結算頁面</title>
     <%-- 靜態包含 base標籤、css樣式、jQuery文件 --%>

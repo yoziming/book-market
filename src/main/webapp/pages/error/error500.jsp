@@ -3,10 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>出錯啦！</title>
-	<%-- 靜態包含 base標籤、css樣式、jQuery文件 --%>
-	<%@ include file="/pages/common/head.jsp"%>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta charset="UTF-8">
+    <title>出錯啦！</title>
+    <%-- 靜態包含 base標籤、css樣式、jQuery文件 --%>
+    <%@ include file="/pages/common/head.jsp" %>
 </head>
 <body>
 <div style="text-align:center; color:red;"><h2>很抱歉，您訪問的頁面出現了錯誤，請嘗試聯繫客服</h2></div>

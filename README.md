@@ -2,7 +2,7 @@
 
 ## 專案背景(Background)
 
-- 本項目來自: 尚硅谷java web零基础入门完整版 https://www.bilibili.com/video/BV1Y7411K7zz
+- 參考尚硅谷java web零基础入门完整版 https://www.bilibili.com/video/BV1Y7411K7zz
 - 個人筆記: https://yoziming.github.io/post/220101-agg-javaweb-01/
 - 我修復了一些邏輯並完善功能
 
@@ -94,25 +94,34 @@
 
 ![error](https://yoziming.github.io/post/220209-javaweb-book-market/error.gif)
 
-## 安裝(Install)
+## 展示網站(Website)
 
-- 本專案使用的環境：JDK11、MySQL5.7、Tomcat8.5.75 
+- 已成功將專案部署到heroku，由於dyno長時間沒用會自動休眠，有時候訪問可能需要等待約30秒
+- 
+- 可自行註冊帳號，管理員權限帳號密碼為 `admin`
+
+## 版本(Version)
+
+- 本專案使用的環境: JDK8、MySQL5.7、Tomcat8.5.75 
 - 專案結構:
 
 ```
 ├─src
-│  └─yoziming
-│      ├─dao  操作SQL用
-│      ├─filter  權限過濾
-│      ├─pojo  entity
-│      ├─service  主要業務邏輯
-│      ├─utils  工具類(處理JDBC連線等等)
-│      └─web  servlet
-└─web
-    ├─pages  JSP頁面
-    ├─static  靜態資源
-    └─WEB-INF
-        └─lib  第三方依賴
+│  ├─main
+│  │  ├─java
+│  │  │  └─yoziming
+│  │  │      ├─dao  # 操作SQL用
+│  │  │      ├─filter  # 權限過濾
+│  │  │      ├─pojo  # entity
+│  │  │      ├─service  # 主要業務邏輯
+│  │  │      ├─test  # 主要業務邏輯
+│  │  │      ├─utils  # 工具類(處理JDBC連線等等)
+│  │  │      └─web  # servlet
+│  │  ├─resources  # 設定檔
+│  │  └─webapp
+│  │      ├─pages  # JSP頁面
+│  │      ├─static  # 靜態資源
+│  │      └─WEB-INF
 ```
 
 - MySQL建表資料
@@ -239,3 +248,4 @@ SET FOREIGN_KEY_CHECKS = 1;
 ![image-20220210000251435](https://yoziming.github.io/post/220209-javaweb-book-market/image-20220210000251435.png)
 
 - 需要確認 `jdbc.properties`中MySQL的帳號與密碼
+- 將專案部署到heroku的踩坑紀錄，請參閱heroku部署篇

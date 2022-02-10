@@ -2,6 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>我的訂單 </title>
     <%-- 靜態包含 base標籤、css樣式、jQuery文件 --%>
     <%@ include file="/pages/common/head.jsp" %>
