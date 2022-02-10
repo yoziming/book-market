@@ -1,10 +1,10 @@
 package yoziming.web;
 
+import com.google.gson.Gson;
 import yoziming.pojo.User;
 import yoziming.service.UserService;
 import yoziming.service.impl.UserServiceImpl;
 import yoziming.utils.WebUtils;
-import com.google.gson.Gson;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -19,15 +19,15 @@ public class UserServlet extends BaseServlet {
 
     private UserService userService = new UserServiceImpl();
 
-
-    protected void ajaxExistsUsername(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void ajaxExistsUsername(HttpServletRequest req, HttpServletResponse resp) throws ServletException,
+            IOException {
         // 獲取請求的參數username
         String username = req.getParameter("username");
         // 調用userService.existsUsername();
         boolean existsUsername = userService.existsUsername(username);
         // 把返回的結果封裝成為map物件
-        Map<String,Object> resultMap = new HashMap<>();
-        resultMap.put("existsUsername",existsUsername);
+        Map<String, Object> resultMap = new HashMap<>();
+        resultMap.put("existsUsername", existsUsername);
 
         Gson gson = new Gson();
         String json = gson.toJson(resultMap);
@@ -37,6 +37,7 @@ public class UserServlet extends BaseServlet {
 
     /**
      * 登出
+     *
      * @param req
      * @param resp
      * @throws ServletException
@@ -46,8 +47,9 @@ public class UserServlet extends BaseServlet {
         // 1、銷毀Session中用戶登入的信息（或者銷毀Session）
         req.getSession().invalidate();
         // 2、重定向到首頁（或登入頁面）。
-        resp.sendRedirect(req.getContextPath());
+        resp.sendRedirect(req.getContextPath() + "/index.jsp");
     }
+
     /**
      * 處理登入的功能
      *
@@ -82,6 +84,7 @@ public class UserServlet extends BaseServlet {
 
     /**
      * 處理註冊的功能
+     *
      * @param req
      * @param resp
      * @throws ServletException
@@ -102,7 +105,7 @@ public class UserServlet extends BaseServlet {
         User user = WebUtils.copyParamToBean(req.getParameterMap(), new User());
 
         // 2、檢查 驗證碼是否正確  === 寫死,要求驗證碼為:abcde
-        if (token!=null && token.equalsIgnoreCase(code)) {
+        if (token != null && token.equalsIgnoreCase(code)) {
             // 3、檢查 用戶名是否可用
             if (userService.existsUsername(username)) {
                 System.out.println("用戶名[" + username + "]已存在!");
@@ -133,6 +136,5 @@ public class UserServlet extends BaseServlet {
         }
 
     }
-
 
 }

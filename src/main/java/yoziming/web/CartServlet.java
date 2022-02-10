@@ -37,7 +37,7 @@ public class CartServlet extends BaseServlet {
             // 修改商品數量
             cart.updateCount(id,count);
             // 重定向回原來購物車展示頁面
-            resp.sendRedirect(req.getHeader("Referer"));
+            resp.sendRedirect(req.getContextPath() + "/index.jsp");
         }
     }
 
@@ -55,7 +55,7 @@ public class CartServlet extends BaseServlet {
             // 清空購物車
             cart.clear();
             // 重定向回原來購物車展示頁面
-            resp.sendRedirect(req.getHeader("Referer"));
+            resp.sendRedirect(req.getContextPath() + "/index.jsp");
         }
     }
     /**
@@ -75,7 +75,7 @@ public class CartServlet extends BaseServlet {
             // 刪除 了購物車商品項
             cart.deleteItem(id);
             // 重定向回原來購物車展示頁面
-            resp.sendRedirect(req.getHeader("Referer"));
+            resp.sendRedirect(req.getContextPath() + "/index.jsp");
         }
 
     }
@@ -110,7 +110,7 @@ public class CartServlet extends BaseServlet {
         req.getSession().setAttribute("lastName", cartItem.getName());
 
         // 重定向回原來商品所在的地址頁面
-        resp.sendRedirect(req.getHeader("Referer"));
+        resp.sendRedirect(req.getContextPath() + "/index.jsp");
     }
 
     protected void ajaxAddItem(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
