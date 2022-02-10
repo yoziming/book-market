@@ -10,152 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7991d39f-314a-411e-a1d6-9b9ee0e83d4e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/BookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/OrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/OrderItemDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/impl/BaseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/impl/BookDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/impl/OrderDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/impl/OrderItemDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/filter/ManagerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/filter/TransactionFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/filter/UserFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/pojo/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/pojo/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/pojo/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/pojo/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/pojo/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/pojo/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/service/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/service/impl/BookServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/service/impl/OrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/BookDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/BookServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/CartTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/OrderDaoImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/OrderItemDaoImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/OrderServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/UserDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/test/UserServletTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/utils/JdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/utils/WebUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/BaseServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/BookServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/CartServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/ClientBookServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/OrderManagerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/OrderServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/RegistServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/yoziming/web/UserServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-core-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/commons-dbutils-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/filters-2.0.235-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/gson-2.2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-all-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/kaptcha-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/cart/cart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/cart/checkout.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/client/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/common/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/common/head.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/common/login_success_menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/common/manager_menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/common/page_nav.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/error/error404.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/error/error500.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/manager/book_edit.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/manager/book_manager.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/manager/manager.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/manager/order_manager.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/manager/order_manager_detail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/order/emptyOrder.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/order/order.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/order/order_detail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/test/dzcp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/user/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/user/login_success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/user/regist.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/pages/user/regist_success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/static/img/code.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/static/img/default.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/static/img/default2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/static/img/logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/static/img/pwd-icons-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/static/script/jquery-1.7.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/BookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/OrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/OrderItemDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/impl/BaseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/impl/BookDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/impl/OrderDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/impl/OrderItemDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/filter/ManagerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/filter/TransactionFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/filter/UserFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/pojo/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/pojo/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/pojo/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/pojo/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/pojo/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/pojo/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/service/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/service/impl/BookServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/service/impl/OrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/BookDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/BookServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/CartTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/OrderDaoImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/OrderItemDaoImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/OrderServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/UserDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/test/UserServletTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/utils/JdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/utils/WebUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/BaseServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/BookServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/CartServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/ClientBookServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/OrderManagerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/OrderServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/RegistServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yoziming/web/UserServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/book-market-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +51,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="https://localhost:8443/book_market_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="book-market:war">
@@ -201,6 +62,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="b8e633f7-ed3f-4586-a9d2-23a727b63fe1" />
+        <option name="HTTPS_PORT" value="8443" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -288,7 +150,7 @@
       <updated>1644471738633</updated>
       <workItem from="1644471739801" duration="226000" />
       <workItem from="1644473348260" duration="597000" />
-      <workItem from="1644473964907" duration="3949000" />
+      <workItem from="1644473964907" duration="7186000" />
     </task>
     <servers />
   </component>
