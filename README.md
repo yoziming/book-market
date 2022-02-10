@@ -6,6 +6,12 @@
 - 個人筆記: https://yoziming.github.io/post/220101-agg-javaweb-01/
 - 我修復了一些邏輯並完善功能
 
+## 展示網站(Website)
+
+- 已成功將專案部署到heroku，由於dyno長時間沒用會自動休眠，有時候訪問可能需要等待約30秒
+- https://my-javaweb-book-market.herokuapp.com/
+- 可自行註冊帳號，管理員權限帳號密碼為 `admin`
+
 ### 學習技術
 
 #### 前端
@@ -94,11 +100,6 @@
 
 ![error](https://yoziming.github.io/post/220209-javaweb-book-market/error.gif)
 
-## 展示網站(Website)
-
-- 已成功將專案部署到heroku，由於dyno長時間沒用會自動休眠，有時候訪問可能需要等待約30秒
-- https://my-javaweb-book-market.herokuapp.com/
-- 可自行註冊帳號，管理員權限帳號密碼為 `admin`
 
 ## 版本(Version)
 
