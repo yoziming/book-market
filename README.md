@@ -1,3 +1,7 @@
+# 柚子書城
+
+> 柚子書城是一個不依賴Spring框架，純粹的JavaWeb項目，主要練習HTTP基本功、Servlet、Session等原理，以及JDBC、資料庫連接池等基礎的SQL操作。
+
 ## 專案背景(Background)
 
 - 本項目參考自 尚硅谷java web課程 https://www.bilibili.com/video/BV1Y7411K7zz
