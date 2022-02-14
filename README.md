@@ -1,14 +1,12 @@
-# 柚子書城
-
 ## 專案背景(Background)
 
-- 參考尚硅谷java web零基础入门完整版 https://www.bilibili.com/video/BV1Y7411K7zz
-- 個人筆記: https://yoziming.github.io/post/220101-agg-javaweb-01/
-- 我修復了一些邏輯並完善功能
+- 本項目參考自 尚硅谷java web課程 https://www.bilibili.com/video/BV1Y7411K7zz
+- 個人學習過程的詳細筆記(共14篇): https://yoziming.github.io/post/220101-agg-javaweb-01/
+- 我修復了一些邏輯並完善功能，並成功將網站部署到雲端，可以透過公開網址訪問
 
 ## 展示網站(Website)
 
-- 已成功將專案部署到heroku，由於dyno長時間沒用會自動休眠，有時候訪問可能需要等待約30秒
+- 已將專案部署到heroku，由於dyno長時間沒用會自動休眠，有時候訪問可能需要等待約30秒雲端server啟動時間
 - https://my-javaweb-book-market.herokuapp.com/
 - 可自行註冊帳號，管理員權限帳號密碼為 `admin`
 
@@ -16,17 +14,20 @@
 
 #### 前端
 
-- html、css、javascript
-  - 例如: 標籤的使用`<a href>`、`<input type>`、`<form>`
+- html、css、javascript的基礎認識
+  - 例如: 各種標籤`<a href>`、`<input type>`、`<form>`
+
 - jsp、jQuery、JSTL標籤庫、EL運算式
-  - 例如: `<c:if test="">`、`${key1}`、綁定點擊事件
-- Ajax，例如: `$.getJSON()`
+  - 例如: `<c:if test="">`、`${key1}`、綁定點擊事件...等等
+
+- Ajax，非同步請求的基礎構成，例如: `$.getJSON()`
 
 #### 後端
 
 - 不依賴框架的http請求與響應操作
 - Servlet、Filter、Listener、Cookie、Session、JSON
 - 驗證資訊、權限隔離、防止重複提交
+- JDBC、資料庫連接池、DAO操作SQL
 - MVC與三層架構、搭建javaweb專案
 - web容器的運作與部屬
 
