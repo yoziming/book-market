@@ -62,15 +62,15 @@
 
 ### 價格篩選
 
-- 有防呆功能，即使亂輸入也會在稍後自動校正
-- 可直接跳轉的分頁
+- 同樣有輸入驗證，即使使用者亂輸入也會在稍後自動校正
+- 可指定頁數直接跳轉的分頁導航
 
 ![price](https://yoziming.github.io/post/220209-javaweb-book-market/price.gif)
 
 ### 購物車
 
 - 提示剛剛加入購物車的商品
-- 可修改數量，並且也有防呆校正
+- 可修改數量，並且也有輸入驗證與校正
 - 刪除項目、清空購物車
 
 ![cart](https://yoziming.github.io/post/220209-javaweb-book-market/cart.gif)
